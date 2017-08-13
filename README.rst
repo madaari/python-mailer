@@ -1,3 +1,8 @@
+
+NOTE:
+=====
+I have modified this project for use by student council, NSIT.  
+
 PyMailer
 ========
 **Simple python bulk mailer script. Raw python using std libs.**
