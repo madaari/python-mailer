@@ -16,7 +16,9 @@ mentor_roll = ""
 stu_email=""
 stu_name=""
 stu_roll=""
+count =0
 for row in reader:
+    count = count +1
     print row[1].find("2017U")
     if (row[1].find("2017U")==0):
         pass
@@ -35,4 +37,4 @@ for row in reader:
         mentor_roll=row[1]
         continue
         
-    
+print count
